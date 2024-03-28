@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nyanga AFRIKA Clothing - Hoodies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5; /* Set background color */
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333; /* Set heading color */
+    }
+    .hoodie {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hoodie-item {
+      margin: 10px;
+      text-align: center;
+    }
+    .hoodie-item img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      animation: rotate 2s linear infinite; /* Apply animation */
+    }
+    .review {
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-out;
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Nyanga AFRIKA Clothing - Hoodies</h1>
+  
+  <img src="https://terraformwebsiteprojects.s3.amazonaws.com/profile.jpeg" alt="Profile Image" class="profile-image">
+
+  <div class="hoodie">
+    <div class="hoodie-item">
+      <img src="hoodie1.jpg" alt="Hoodie 1">
+      <div class="review">
+        <h3>Customer Review</h3>
+        <p>"I love the quality and design of this hoodie. It's so comfortable!"</p>
+        <p>- John Doe</p>
+      </div>
+    </div>
+    <div class="hoodie-item">
+      <img src="hoodie2.jpg" alt="Hoodie 2">
+      <div class="review">
+        <h3>Customer Review</h3>
+        <p>"Great hoodie! Perfect fit and the material feels really nice."</p>
+        <p>- Jane Smith</p>
+      </div>
+    </div>
+    <!-- Add more hoodie items as needed -->
+  </div>
+</div>
+
+</body>
+</html>
+
